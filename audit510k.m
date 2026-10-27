@@ -1,3 +1,6 @@
+%% Before you try it - the code allows you to select a downloaded document (510k summary) but it is not sensitive to different phrases for the different variables (e.g. 
+%% kernal thickness or slice size) so I am still working on making it scan for different variations of the same information
+
 function audit510k(pdfFile, xlsxFile)
 %AUDIT510K  Scanner-disclosure audit of ONE FDA 510(k) Summary PDF -> Excel.
 %
